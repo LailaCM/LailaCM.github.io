@@ -1,10 +1,10 @@
 /* Estilo do avatar na lateral da tela */
 #avatar {
     position: fixed;
-    top: 20px;
+    top: 170px;
     right: 20px;
-    width: 120px;
-    height: 120px;
+    width: 300px; /* Aumenta a largura do avatar */
+    height: 300px; /* Aumenta a altura do avatar */
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid #3c0078;
@@ -88,14 +88,10 @@ section {
 }
 
 .projeto img {
-    max-width: 100%;
-    height: auto;
+    max-width: 300px; /* Ajuste para o tamanho desejado */
+    height: auto;     /* Mantém a proporção da altura */
     border-bottom: 1px solid #ddd;
     margin-bottom: 0.5rem;
-}
-
-.projeto h3 {
-    margin: 0.5rem 0;
 }
 
 /* Estilo do formulário de contato */
@@ -173,3 +169,45 @@ footer {
     border-color: #333;
 }
 
+/* Estilo da seção de contatos */
+#contato {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.contato-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contato-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+}
+
+.contato-item i {
+    font-size: 2rem;
+    color: #3c0078;
+}
+
+.contato-item h3 {
+    margin: 0;
+}
+
+.contato-item a {
+    color: #3c0078;
+    text-decoration: none;
+}
+
+.contato-item a:hover {
+    text-decoration: underline;
+}
