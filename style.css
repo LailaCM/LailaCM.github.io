@@ -1,10 +1,57 @@
-/* Estilo do avatar na lateral da tela */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #3c0078;
+    background: linear-gradient(135deg, #fefefe, #928cc3);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.projeto {
+    flex: 1;
+    min-width: 25vw;
+    border-radius: 4vh;
+    overflow: hidden;
+    background: #fff;
+    padding: 2vh;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.projeto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 2vw rgba(0, 0, 0, 0.3);
+}
+
+.projeto img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 0.3vh solid #ddd;
+    margin-bottom: 1vh;
+    border-radius: 2vh;
+}
+
+.projeto h3 {
+    color: #3c0078;
+    font-size: 2.5vh;
+    margin-top: 1vh;
+}
+
 #avatar {
     position: fixed;
     top: 17vh;
     right: 2vw;
-    width: 20vw; /* Aumenta a largura do avatar */
-    height: 20vw; /* Aumenta a altura do avatar para manter proporção */
+    width: 20vw;
+    height: 20vw; 
     border-radius: 50%;
     overflow: hidden;
     border: 0.3vw solid #3c0078;
@@ -17,14 +64,12 @@
     height: auto;
 }
 
-/* Reset básico para margens e preenchimentos */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilo geral do corpo */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -32,7 +77,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Estilo do cabeçalho */
 header {
     background: #3c0078;
     color: #fff;
