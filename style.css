@@ -78,12 +78,11 @@ body {
 }
 
 header {
-    background: #3c0078;
+    background: linear-gradient(to right, #462659, #8a64bc);
     color: #fff;
     padding: 2vh 0;
     text-align: center;
 }
-
 header h1 {
     margin: 0;
 }
