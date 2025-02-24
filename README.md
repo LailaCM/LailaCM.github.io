@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
 ## Hello, Devs!! 👋
-### Meu nome é Laila Casadei Macêdo, Seja bem-vindo ao meu perfil GitHub. <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" min-width="200px" max-width="200px" width="200px" align="right">
+### Meu nome é Laila Casadei Macêdo, Seja bem-vindo ao meu perfil GitHub. <img src="https://static.vecteezy.com/system/resources/previews/026/980/766/non_2x/one-continuous-line-drawing-of-laptop-with-headphone-beside-for-entertainment-purpose-business-equipment-gadget-concept-trendy-single-line-draw-design-graphic-illustration-png.png" alt="ilustração de um computador" min-width="200px" max-width="200px" width="200px" align="right">
 
 - 📍  Sou de Amparo/SP, Brasil
 ##
