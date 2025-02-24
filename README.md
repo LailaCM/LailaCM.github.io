@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
+<div align="center">
+
 ## Hello, Devs!! 👋
 ### Meu nome é Laila Casadei Macêdo, Seja bem-vindo ao meu perfil GitHub. <img src="https://png.pngtree.com/png-vector/20231223/ourmid/pngtree-dog-computer-pc-tablet-wearable-png-image_11285021.png" alt="ilustração de um computador" min-width="200px" max-width="200px" width="200px" align="right">
 
@@ -16,12 +18,11 @@
 [<img height="48px" width="48px" alt="Icone Git" src="https://skillicons.dev/icons?i=git"/>](https://git-scm.com/) [<img height="48px" width="48px" alt="Icone GitHub" src="https://skillicons.dev/icons?i=github"/>](https://github.com/)
 [<img height="48px" width="48px" alt="Icone C" src="https://skillicons.dev/icons?i=c"/>](https://devdocs.io/c/)
 
-
 ##
 
 #### Como entrar em contato comigo:
-[<img alt="Linkedin" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/laila-casadei-macêdo-594208287/)
 <a href="mailto:lailacmacedo07@gmail.com" target="_blank"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+[<img alt="Linkedin" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/laila-casadei-macêdo-594208287/)
 
 ##
 
@@ -33,3 +34,5 @@
 <p align="center">
  <img width="1000" src="img/snake.svg" alt="snake"/>
 </p>
+
+</div>
