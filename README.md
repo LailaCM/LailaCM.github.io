@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
 ## Hello, Devs!! 👋
-### Meu nome é Laila Casadei Macêdo, Seja bem-vindo ao meu perfil GitHub. <img src="/img/comp.png" alt="ilustração de um computador" min-width="200px" max-width="200px" width="200px" align="right">
+### Meu nome é Laila Casadei Macêdo, Seja bem-vindo ao meu perfil GitHub. <img src="https://gulfcoasthumanesociety.org/wp-content/uploads/2022/09/new_homenews.png" alt="ilustração de um computador" min-width="200px" max-width="200px" width="200px" align="right">
 
 - 📍  Sou de Amparo/SP, Brasil
 ##
