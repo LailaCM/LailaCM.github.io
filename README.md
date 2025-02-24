@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
 ## Hello, Devs!! 👋
-### Meu nome é Laila Casadei Macêdo, Seja bem-vindo ao meu perfil GitHub. <img src="https://img.freepik.com/fotos-gratis/ilustracao-3d-de-pato-engracado-com-tablet_183364-80436.jpg?ga=GA1.1.2016309662.1733146414&semt=ais_hybrid" alt="ilustração de um computador" min-width="200px" max-width="200px" width="200px" align="right">
+### Meu nome é Laila Casadei Macêdo, Seja bem-vindo ao meu perfil GitHub. <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" min-width="200px" max-width="200px" width="200px" align="right">
 
 - 📍  Sou de Amparo/SP, Brasil
 ##
@@ -28,4 +28,4 @@
 ## Mais informações:
 [<img alt="Portifolio" src="https://img.shields.io/badge/-Portifolio-%233c0078?style=for-the-badge&logo=github&logoColor=white"/>](https://lailacm.github.io)
 
-[![wakatime](https://wakatime.com/badge/user/d4ee6717-e8db-4192-a6f7-abb330d28b3e.svg)](https://wakatime.com/@d4ee6717-e8db-4192-a6f7-abb330d28b3e)
+[![wakatime](https://wakatime.com/badge/user/6f735bcc-587e-4ae9-9301-70a9ea0e8419.svg)](https://wakatime.com/@6f735bcc-587e-4ae9-9301-70a9ea0e8419)
