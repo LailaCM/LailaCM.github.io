@@ -13,7 +13,7 @@ body {
     background-attachment: fixed;
 }
 
-header {
+header, footer{
     background: linear-gradient(to right, #462659, #8a64bc);
     color: #fff;
     padding: 2vh 0;
@@ -47,25 +47,6 @@ nav {
                 }
             }
         }
-    }
-}
-
-#avatar {
-    position: fixed;
-    top: 15vh;
-    right: 2vw;
-    width: 20vw;
-    height: 20vw;
-    border-radius: 50%;
-    overflow: hidden;
-    border: 0.3vw solid #3c0078;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-
-    img {
-        width: 100%;
-        height: auto;
-        border-radius: 50%;
     }
 }
 
@@ -172,16 +153,6 @@ form {
             transform: translateY(-2px);
         }
     }
-}
-
-footer {
-    background: #3c0078;
-    color: #fff;
-    text-align: center;
-    padding: 2vh;
-    width: 100vw;
-    position: relative;
-    bottom: 0;
 }
 
 #redes-sociais {
