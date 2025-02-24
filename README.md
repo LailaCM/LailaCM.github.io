@@ -35,12 +35,12 @@
 
 <div align="center">
   <a href="https://github.com/LailaCM">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LailaCM&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LailaCM&layout=compact&langs_count=16&theme=dracula"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LailaCM&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LailaCM&layout=compact&langs_count=16&theme=midnight-purple"/>
 </div>
 
 <p align="center">
- <img width="1000" src="img/snake.svg" alt="snake"/>
+ ![snake gif](https://github.com/LailaCM/LailaCM/blob/output/snake.svg)
 </p>
 
 </div>
