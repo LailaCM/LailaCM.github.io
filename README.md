@@ -1,16 +1,31 @@
-## Hi there 👋
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
-<!--
-**LailaCM/LailaCM** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Hello, Devs!! 👋
+### Meu nome é Laila Casadei Macêdo, Seja bem-vindo ao meu perfil GitHub. <img src="https://i.pinimg.com/originals/fe/c7/d6/fec7d6014cfdadc99d20cd6dbfa28208.png" alt="ilustração de um computador" min-width="200px" max-width="200px" width="200px" align="right">
 
-Here are some ideas to get you started:
+- 📍  Sou de Amparo/SP, Brasil
+##
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### Estou aprendendo sobre:
+[<img height="48px" width="48px" alt="Icone Java" src="https://skillicons.dev/icons?i=java"/>](https://dev.java/learn/) [<img height="48px" width="48px" alt="Icone Javascript" src="https://skillicons.dev/icons?i=javascript"/>](https://devdocs.io/javascript/)
+[<img height="48px" width="48px" alt="Icone Node.js" src="https://skillicons.dev/icons?i=nodejs"/>](https://nodejs.org/) 
+##
+
+#### Tecnologias que eu sei:
+[<img height="48px" width="48px" alt="Icone HTML" src="https://skillicons.dev/icons?i=html"/>](https://developer.mozilla.org/en-US/docs/Web/HTML) [<img height="48px" width="48px" alt="Icone CSS" src="https://skillicons.dev/icons?i=css"/>](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[<img height="48px" width="48px" alt="Icone Git" src="https://skillicons.dev/icons?i=git"/>](https://git-scm.com/) [<img height="48px" width="48px" alt="Icone GitHub" src="https://skillicons.dev/icons?i=github"/>](https://github.com/)
+[<img height="48px" width="48px" alt="Icone C" src="https://skillicons.dev/icons?i=c"/>](https://devdocs.io/c/)
+
+
+##
+
+#### Como entrar em contato comigo:
+[<img alt="Linkedin" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/laila-casadei-macêdo-594208287/)
+<a href="mailto:lailacmacedo07@gmail.com" target="_blank"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+
+##
+
+## Mais informações:
+[<img alt="Portifolio" src="https://img.shields.io/badge/-Portifolio-%233c0078?style=for-the-badge&logo=github&logoColor=white"/>](https://lailacm.github.io)
+
+[![wakatime](https://wakatime.com/badge/user/d4ee6717-e8db-4192-a6f7-abb330d28b3e.svg)](https://wakatime.com/@d4ee6717-e8db-4192-a6f7-abb330d28b3e)
