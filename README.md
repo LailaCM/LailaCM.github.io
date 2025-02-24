@@ -29,3 +29,7 @@
 [<img alt="Portifolio" src="https://img.shields.io/badge/-Portifolio-%233c0078?style=for-the-badge&logo=github&logoColor=white"/>](https://lailacm.github.io)
 
 [![wakatime](https://wakatime.com/badge/user/6f735bcc-587e-4ae9-9301-70a9ea0e8419.svg)](https://wakatime.com/@6f735bcc-587e-4ae9-9301-70a9ea0e8419)
+
+<p align="center">
+ <img width="1000" src="img/snake.svg" alt="snake"/>
+</p>
