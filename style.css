@@ -1,69 +1,4 @@
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #3c0078;
-    background: linear-gradient(135deg, #fefefe, #928cc3);
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-}
-
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2vw;
-}
-
-.projeto {
-    flex: 1;
-    min-width: 25vw;
-    border-radius: 4vh;
-    overflow: hidden;
-    background: #fff;
-    padding: 2vh;
-    text-align: center;
-    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-
-.projeto:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 2vw rgba(0, 0, 0, 0.3);
-}
-
-.projeto img {
-    max-width: 100%;
-    height: auto;
-    border-bottom: 0.3vh solid #ddd;
-    margin-bottom: 1vh;
-    border-radius: 2vh;
-}
-
-.projeto h3 {
-    color: #3c0078;
-    font-size: 2.5vh;
-    margin-top: 1vh;
-}
-
-#avatar {
-    position: fixed;
-    top: 17vh;
-    right: 2vw;
-    width: 20vw;
-    height: 20vw; 
-    border-radius: 50%;
-    overflow: hidden;
-    border: 0.3vw solid #3c0078;
-    background: #fff;
-    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.2);
-}
-
-#avatar img {
-    width: 100%;
-    height: auto;
-}
-
+/* filepath: /C:/Users/Laila/Desktop/LailaCM/style.scss */
 * {
     margin: 0;
     padding: 0;
@@ -71,10 +6,11 @@ body {
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #3c0078;
-    background-color: #f4f4f4;
+    background: linear-gradient(135deg, #fefefe, #928cc3);
+    background-attachment: fixed;
 }
 
 header {
@@ -82,41 +18,100 @@ header {
     color: #fff;
     padding: 2vh 0;
     text-align: center;
-}
-header h1 {
-    margin: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+
+    h1 {
+        margin: 0;
+        font-size: 3vh;
+    }
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+nav {
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            display: inline;
+            margin: 0 1.5vw;
+
+            a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: bold;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: #b197bf;
+                }
+            }
+        }
+    }
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 1.5vw;
+#avatar {
+    position: fixed;
+    top: 15vh;
+    right: 2vw;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0.3vw solid #3c0078;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Estilo das seções */
 section {
     padding: 4vh;
     margin: 2vh auto;
     max-width: 80vw;
     background: #fff;
     border-radius: 4vh;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo da galeria de projetos */
 .galeria {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 2vw;
+
+    .projeto {
+        flex: 1;
+        min-width: 25vw;
+        border-radius: 4vh;
+        overflow: hidden;
+        background: #fff;
+        padding: 2vh;
+        text-align: center;
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-bottom: 0.3vh solid #ddd;
+            margin-bottom: 1vh;
+            border-radius: 2vh;
+        }
+
+        h3 {
+            color: #3c0078;
+            font-size: 2.5vh;
+            margin-top: 1vh;
+        }
+    }
 }
 
 .linktr {
@@ -128,129 +123,141 @@ section {
     background: #f9f9f9;
     padding: 2vh;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    img {
+        max-width: 30vw;
+        height: auto;
+        border-bottom: 0.2vh solid #ddd;
+        margin-bottom: 1vh;
+    }
 }
 
-.linktr img {
-    max-width: 30vw; /* Ajuste para o tamanho desejado */
-    height: auto;     /* Mantém a proporção da altura */
-    border-bottom: 0.2vh solid #ddd;
-    margin-bottom: 1vh;
-}
-
-/* Estilo do formulário de contato */
 form {
     display: grid;
     gap: 2vh;
+
+    label {
+        display: block;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 1.5vh;
+        border: 0.1vw solid #ddd;
+        border-radius: 2vh;
+        transition: border-color 0.3s;
+
+        &:focus {
+            border-color: #3c0078;
+            outline: none;
+        }
+    }
+
+    button {
+        background: #3c0078;
+        color: #fff;
+        border: none;
+        padding: 1.5vh 3vw;
+        border-radius: 2vh;
+        cursor: pointer;
+        transition: background 0.3s, transform 0.3s;
+
+        &:hover {
+            background: #555;
+            transform: translateY(-2px);
+        }
+    }
 }
 
-label {
-    display: block;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 1.5vh;
-    border: 0.1vw solid #ddd;
-    border-radius: 2vh;
-}
-
-button {
-    background: #3c0078;
-    color: #fff;
-    border: none;
-    padding: 1.5vh 3vw;
-    border-radius: 2vh;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #555;
-}
-
-/* Estilo do rodapé */
 footer {
     background: #3c0078;
     color: #fff;
     text-align: center;
     padding: 2vh;
     width: 100vw;
+    position: relative;
     bottom: 0;
 }
 
-/* Estilo para os botões de redes sociais */
 #redes-sociais {
     text-align: center;
     margin: 4vh 0;
+
+    .social-buttons {
+        display: flex;
+        justify-content: center;
+        gap: 2vw;
+
+        .social-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 1vh 2vw;
+            border: 0.2vh solid #ddd;
+            border-radius: 2vh;
+            background: #fff;
+            color: #333;
+            text-decoration: none;
+            font-size: 2.5vh;
+            transition: background 0.3s, color 0.3s, border-color 0.3s;
+
+            i {
+                margin-right: 1vw;
+            }
+
+            &:hover {
+                background: #333;
+                color: #fff;
+                border-color: #333;
+            }
+        }
+    }
 }
 
-.social-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 2vw;
-}
-
-.social-button {
-    display: inline-flex;
-    align-items: center;
-    padding: 1vh 2vw;
-    border: 0.2vh solid #ddd;
-    border-radius: 2vh;
-    background: #fff;
-    color: #333;
-    text-decoration: none;
-    font-size: 2.5vh;
-    transition: background 0.3s, color 0.3s;
-}
-
-.social-button i {
-    margin-right: 1vw;
-}
-
-.social-button:hover {
-    background: #333;
-    color: #fff;
-    border-color: #333;
-}
-
-/* Estilo da seção de contatos */
 #contato {
     padding: 4vh;
     margin: 2vh auto;
     max-width: 80vw;
     background: #fff;
     border-radius: 4vh;
-}
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 
-.contato-info {
-    display: flex;
-    flex-direction: column;
-    gap: 2vh;
-}
+    .contato-info {
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
 
-.contato-item {
-    display: flex;
-    align-items: center;
-    gap: 2vw;
-    padding: 2vh;
-    border: 0.2vw solid #ddd;
-    border-radius: 4vh;
-    background: #f9f9f9;
-}
+        .contato-item {
+            display: flex;
+            align-items: center;
+            gap: 2vw;
+            padding: 2vh;
+            border: 0.2vw solid #ddd;
+            border-radius: 4vh;
+            background: #f9f9f9;
+            transition: background 0.3s;
 
-.contato-item i {
-    font-size: 4vh;
-    color: #3c0078;
-}
+            &:hover {
+                background: #eaeaea;
+            }
 
-.contato-item h3 {
-    margin: 0;
-}
+            i {
+                font-size: 4vh;
+                color: #3c0078;
+            }
 
-.contato-item a {
-    color: #3c0078;
-    text-decoration: none;
-}
+            h3 {
+                margin: 0;
+            }
 
-.contato-item a:hover {
-    text-decoration: underline;
+            a {
+                color: #3c0078;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
 }
