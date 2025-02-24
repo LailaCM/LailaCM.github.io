@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
 ## Hello, Devs!! 👋
-### Meu nome é Laila Casadei Macêdo, Seja bem-vindo ao meu perfil GitHub. <img src="https://img.freepik.com/vetores-gratis/conceito-de-ilustracao-de-computador-de-mesa_114360-23359.jpg?t=st=1740399726~exp=1740403326~hmac=2c31cd88b790b131db4a5334bdc641849fafb63b9f56c2ae80c0040caff8d731&w=900" alt="ilustração de um computador" min-width="200px" max-width="200px" width="200px" align="right">
+### Meu nome é Laila Casadei Macêdo, Seja bem-vindo ao meu perfil GitHub. <img src="https://img.freepik.com/fotos-gratis/ilustracao-3d-de-pato-engracado-com-tablet_183364-80436.jpg?ga=GA1.1.2016309662.1733146414&semt=ais_hybrid" alt="ilustração de um computador" min-width="200px" max-width="200px" width="200px" align="right">
 
 - 📍  Sou de Amparo/SP, Brasil
 ##
