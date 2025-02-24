@@ -3,9 +3,11 @@
 <div align="center">
 
 ## Hello, Devs!! 👋
-### Meu nome é Laila Casadei Macêdo, Seja bem-vindo ao meu perfil GitHub. <img src="https://png.pngtree.com/png-vector/20231223/ourmid/pngtree-dog-computer-pc-tablet-wearable-png-image_11285021.png" alt="ilustração de um computador" min-width="200px" max-width="200px" width="200px" align="right">
+### Meu nome é Laila Casadei Macêdo, Seja bem-vindo ao meu perfil GitHub.
 
-- 📍  Sou de Amparo/SP, Brasil
+<img src="https://png.pngtree.com/png-vector/20231223/ourmid/pngtree-dog-computer-pc-tablet-wearable-png-image_11285021.png" alt="ilustração de um computador" width="200px">
+
+📍  Sou de Amparo/SP, Brasil
 ##
 
 #### Estou aprendendo sobre:
@@ -30,6 +32,12 @@
 [<img alt="Portifolio" src="https://img.shields.io/badge/-Portifolio-%233c0078?style=for-the-badge&logo=github&logoColor=white"/>](https://lailacm.github.io)
 
 [![wakatime](https://wakatime.com/badge/user/6f735bcc-587e-4ae9-9301-70a9ea0e8419.svg)](https://wakatime.com/@6f735bcc-587e-4ae9-9301-70a9ea0e8419)
+
+<div align="center">
+  <a href="https://github.com/LailaCM">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LailaCM&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LailaCM&layout=compact&langs_count=16&theme=dracula"/>
+</div>
 
 <p align="center">
  <img width="1000" src="img/snake.svg" alt="snake"/>
