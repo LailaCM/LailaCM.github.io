@@ -23,7 +23,7 @@ body {
     background-attachment: fixed;
 }
 
-/* Cabeçalho e Rodapé */
+/* Cabeçalho com Rodapé */
 header,
 footer {
     background: linear-gradient(to right, var(--dark-background-color), var(--secondary-color));
