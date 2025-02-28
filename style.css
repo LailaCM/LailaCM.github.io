@@ -1,64 +1,121 @@
-/* filepath: /C:/Users/Laila/Desktop/LailaCM/style.scss */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Paleta de Cores */
+:root {
+    --primary-color: #3c0078;
+    --secondary-color: #af94d2;
+    --background-color: #fefefe;
+    --dark-background-color: #462659;
+    --highlight-color: #b197bf;
+}
+
+/* Corpo */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    color: #3c0078;
-    background: linear-gradient(135deg, #fefefe, #928cc3);
+    color: var(--primary-color);
+    background: linear-gradient(135deg, var(--background-color), var(--secondary-color));
     background-attachment: fixed;
 }
 
-header, footer{
-    background: linear-gradient(to right, #462659, #8a64bc);
+/* Cabeçalho e Rodapé */
+header,
+footer {
+    background: linear-gradient(to right, var(--dark-background-color), var(--secondary-color));
     color: #fff;
     padding: 2vh 0;
     text-align: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-
-    h1 {
-        margin: 0;
-        font-size: 3vh;
-        font-weight: bold;
-    }
 }
 
-nav {
-    ul {
-        list-style: none;
-        padding: 0;
+header h1 {
+    margin: 0;
+    font-size: 3vh;
+    font-weight: bold;
+}
 
-        li {
-            display: inline;
-            margin: 0 1.5vw;
+/* Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
 
-            a {
-                color: #fff;
-                text-decoration: none;
-                font-weight: bold;
-                transition: color 0.3s;
+    li {
+        display: inline;
+        margin: 0 1.5vw;
 
-                &:hover {
-                    color: #b197bf;
-                }
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+
+            &:hover {
+                color: var(--highlight-color);
             }
         }
     }
 }
 
+/* Seções */
 section {
     padding: 4vh;
-    margin: 2vh auto;
+    margin: 10vh auto;
     max-width: 80vw;
     background: #fff;
     border-radius: 4vh;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-radius: 4vh;
+        background: inherit;
+        z-index: -1;
+        filter: blur(10px);
+        opacity: 0.7;
+        box-shadow: 0 0 20px rgba(60, 0, 120, 0.8), 0 0 30px rgba(60, 0, 120, 0.6), 0 0 40px rgba(60, 0, 120, 0.4);
+    }
 }
 
+/* Container 1 */
+.container1 {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+
+    .container2 {
+        margin-left: 5vw;
+        flex: 1;
+        font-size: 2.5vh;
+        line-height: 1.6;
+    }
+
+    .container3 {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container3 img {
+        max-width: 40%;
+        border-radius: 19vh;
+        box-shadow: 0 0px 10px rgba(191, 106, 233, 0.9);
+    }
+}
+
+/* Galeria */
 .galeria {
     display: flex;
     flex-wrap: wrap;
@@ -90,7 +147,7 @@ section {
         }
 
         h3 {
-            color: #3c0078;
+            color: var(--primary-color);
             font-size: 2.5vh;
             margin-top: 1vh;
             font-weight: bold;
@@ -98,6 +155,7 @@ section {
     }
 }
 
+/* Linktree */
 .linktr {
     flex: 1;
     min-width: 20vw;
@@ -117,6 +175,7 @@ section {
     }
 }
 
+/* Formulário */
 form {
     display: grid;
     gap: 2vh;
@@ -126,7 +185,8 @@ form {
         font-weight: bold;
     }
 
-    input, textarea {
+    input,
+    textarea {
         width: 100%;
         padding: 1.5vh;
         border: 0.1vw solid #ddd;
@@ -134,13 +194,13 @@ form {
         transition: border-color 0.3s;
 
         &:focus {
-            border-color: #3c0078;
+            border-color: var(--primary-color);
             outline: none;
         }
     }
 
     button {
-        background: #3c0078;
+        background: var(--primary-color);
         color: #fff;
         border: none;
         padding: 1.5vh 3vw;
@@ -155,7 +215,7 @@ form {
     }
 }
 
-
+/* Redes Sociais */
 #redes-sociais {
     text-align: center;
     margin: 4vh 0;
@@ -190,6 +250,7 @@ form {
     }
 }
 
+/* Contato */
 #contato {
     padding: 4vh;
     margin: 2vh auto;
@@ -219,7 +280,7 @@ form {
 
             i {
                 font-size: 4vh;
-                color: #3c0078;
+                color: var(--primary-color);
             }
 
             h3 {
@@ -228,7 +289,7 @@ form {
             }
 
             a {
-                color: #3c0078;
+                color: var(--primary-color);
                 text-decoration: none;
 
                 &:hover {
