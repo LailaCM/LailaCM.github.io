@@ -1,125 +1,290 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfólio de Laila Casadei Macêdo, desenvolvedora em processo de aprendizagem.">
-    <link rel="shortcut icon" href="https://i.pinimg.com/originals/ce/23/32/ce2332e9b217537935ffeb90bada8b63.gif" type="image/x-icon">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="description" content="Portfólio profissional de Laila Casadei Macêdo - Desenvolvedora em ascensão">
+    <meta name="keywords" content="portfólio, desenvolvedora, programação, front-end, UI/UX">
+    <meta name="author" content="Laila Casadei Macêdo">
+    <link rel="shortcut icon" href="https://i.pinimg.com/originals/ce/23/32/ce2332e9b217537935ffeb90bada8b63.gif"
+        type="image/x-icon">
+    <title>Laila Casadei Macêdo | Portfólio Profissional</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
+
 <body>
-    
-    <header>
-        <nav>
-            <h1>Bem-vindo ao Meu Portfólio</h1>
-            <ul>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#linktr">Linktree</a></li>
-                <li><a href="#contato">Contato</a></li>
-                <li><a href="#TCC">Meu TCC</a></li>
-            </ul>
-        </nav>
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <i class="bi bi-code-slash"></i> LailaCM
+                </a>
+
+                <ul class="nav-links">
+                    <li><a href="#hero" class="active">Início</a></li>
+                    <li><a href="#about">Sobre Mim</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#tcc">Meu TCC</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+
+                <div class="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="sobre">
-            <h2>Sobre Mim</h2>
-            <div class="container1">
-                <div class="container2">
-                    <p>Olá! Sou Laila Casadei Macêdo, uma desenvolvedora em processo de aprendizagem. Sempre estou em busca de novos desafios para aprimorar minhas habilidades.</p>
-                </div>
-                <div class="container3">
-                    <img src="./img/eu.png" alt="Imagem de Laila Casadei Macêdo">
-                </div>
-            </div>
-        </section>
-        
-        <section id="projetos">
-            <h2>Projetos</h2>
-            <div class="galeria">
-                <article class="projeto">
-                    <a href="https://lailacm.github.io/UI-exercicios03-02/" target="_blank" rel="noopener noreferrer">
-                        <img src="img/projeto1.png" alt="Captura de tela do Projeto 1">
-                        <h3>Projeto 1</h3>
-                    </a>
-                </article>
-                <article class="projeto">
-                    <a href="https://lailacm.github.io/web-aula03-ui-ux/" target="_blank" rel="noopener noreferrer">
-                        <img src="img/projeto2.png" alt="Captura de tela do Projeto 2">
-                        <h3>Projeto 2</h3>
-                    </a>
-                </article>
-            </div>
-        </section>
-
-        <section id="linktr">
-            <h2>Meu Linktree</h2>
-            <div class="galeria">
-                <div class="linktr">
-                    <a href="https://linktr.ee/hey_._lah" target="_blank" rel="noopener noreferrer">
-                        <img src="img/linktree.png" alt="Linktree de Laila Casadei Macêdo">
-                    </a>    
-                </div>
-            </div>
-        </section>
-
-        <section id="TCC">
-            <h2>Sobre meu TCC</h2>
-            <div class="tcc-container">
-                <div class="tcc-text">
-                    <p>
-                        A programação é essencial no desenvolvimento tecnológico atual, com impacto em diversas áreas. <br>
-                        O meu TCC tem como objetivo explorar uma área diferente: a floricultura. O trabalho aborda os conceitos e a implementação prática de soluções para criar um sistema que ajude uma floricultura a organizar, classificar e nomear suas plantas, fornecendo informações como nome, espécie, classificação botânica e imagem ilustrativa. <br><br>
-                        Essa ferramenta permitirá melhorar os processos internos da loja, evitar erros na identificação das espécies e oferecer um atendimento mais rápido e personalizado, resultando em maior satisfação dos clientes e maior eficiência operacional. <br><br>
-                        Serão discutidas as linguagens e ferramentas utilizadas, além dos desafios enfrentados durante o desenvolvimento. O trabalho visa demonstrar o conhecimento adquirido no curso de PSOF e também contribuir para a obtenção de uma boa nota.
-                    </p>
-                </div>
-                <div class="tcc-image">
-                    <img src="img/bannerfloralles.png" alt="Banner do meu TCC">
-                </div>
-            </div>
-        </section>
-
-        <section id="contato">
-            <h2>Contatos</h2>
-            <div class="contato-info">
-                <div class="contato-item">
-                    <i class="fas fa-envelope"></i>
-                    <div>
-                        <h3>E-mail:</h3>
-                        <a href="mailto:lailacmacedo07@gmail.com">lailacmacedo07@gmail.com</a>
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right">
+                    <h1>Laila Casadei Macêdo</h1>
+                    <h2>Desenvolvedora em Ascensão</h2>
+                    <p>Transformando ideias em soluções digitais através de código criativo e design intuitivo. Sempre
+                        em busca de novos desafios para expandir meus conhecimentos e habilidades.</p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                        <a href="#contact" class="btn btn-outline">Contato</a>
                     </div>
                 </div>
-            <!-- <div class="contato-item">
-                <i class="fas fa-phone"></i>
-                <div>
-                    <h3>Telefone:</h3>
-                    <a href="https://wa.me/qr/J5G37GASZRD5E1">(19)98995-0515</a>
-                </div>
-            </div> -->
-            <div class="contato-item">
-                <i class="fab fa-linkedin"></i>
-                <div>
-                    <h3>LinkedIn:</h3>
-                    <a href="https://www.linkedin.com/in/laila-casadei-macêdo-594208287/">LinkedIn</a>
-                </div>
-            </div>
-            <div class="contato-item">
-                <i class="fab fa-github"></i>
-                <div>
-                    <h3>GitHub:</h3>
-                    <a href="https://github.com/LailaCM">LailaCM</a>
+                <div class="hero-image" data-aos="fade-left">
+                    <img src="./img/eu.png" alt="Laila Casadei Macêdo">
+                    <div class="social-icons">
+                        <a href="https://github.com/LailaCM" target="_blank" class="social-icon">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/laila-casadei-macêdo-594208287/" target="_blank"
+                            class="social-icon">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://linktr.ee/hey_._lah" target="_blank" class="social-icon">
+                            <i class="bi bi-link-45deg"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="./img/eu.png" alt="Laila Casadei Macêdo">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Desenvolvedora em Processo de Aprendizagem</h3>
+                    <p>Olá! Sou Laila Casadei Macêdo, uma entusiasta da tecnologia em constante evolução. Minha jornada
+                        no desenvolvimento começou com uma curiosidade insaciável por entender como as coisas funcionam
+                        digitalmente.</p>
+                    <p>Atualmente, estou focada em aprimorar minhas habilidades em desenvolvimento front-end, com um
+                        olhar atento para a experiência do usuário. Acredito que a combinação de código limpo e design
+                        intuitivo é a chave para criar soluções digitais impactantes.</p>
+
+                    <div class="skills">
+                        <div class="skill-item" data-aos="fade-up">
+                            <div class="skill-info">
+                                <span>HTML & CSS</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="skill-info">
+                                <span>UI/UX Design</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Meus Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="img/projeto1.png" alt="Projeto 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Projeto UI/UX</h3>
+                        <p>Exercícios práticos de interface do usuário focados em usabilidade e experiência do usuário.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://lailacm.github.io/UI-exercicios03-02/" target="_blank"
+                                class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="img/projeto2.png" alt="Projeto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Web Design</h3>
+                        <p>Página web desenvolvida para aplicar conceitos de design responsivo e acessibilidade.</p>
+                        <div class="project-links">
+                            <a href="https://lailacm.github.io/web-aula03-ui-ux/" target="_blank"
+                                class="btn btn-primary">Ver Projeto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tcc" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Meu TCC</h2>
+            <div class="tcc-content">
+                <div class="tcc-text" data-aos="fade-right">
+                    <p>A programação é essencial no desenvolvimento tecnológico atual, com impacto em diversas áreas.
+                        Meu TCC tem como objetivo explorar uma aplicação prática em um contexto diferente: a
+                        floricultura.</p>
+                    <p>O trabalho aborda os conceitos e a implementação prática de soluções para criar um sistema que
+                        ajude uma floricultura a organizar, classificar e nomear suas plantas, fornecendo informações
+                        como nome, espécie, classificação botânica e imagem ilustrativa.</p>
+                    <p>Essa ferramenta permitirá melhorar os processos internos da loja, evitar erros na identificação
+                        das espécies e oferecer um atendimento mais rápido e personalizado, resultando em maior
+                        satisfação dos clientes e maior eficiência operacional.</p>
+                    <p>Serão discutidas as linguagens e ferramentas utilizadas, além dos desafios enfrentados durante o
+                        desenvolvimento. O trabalho visa demonstrar o conhecimento adquirido no curso de PSOF e também
+                        contribuir para a obtenção de uma boa nota.</p>
+                </div>
+                <div class="tcc-image" data-aos="fade-left">
+                    <img src="img/bannerfloralles.png" alt="Banner do Meu TCC">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Contato</h2>
+            <div class="contact-container">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Vamos conversar!</h3>
+                    <p>Estou sempre aberta a novas oportunidades, colaborações ou apenas para bater um papo sobre
+                        tecnologia.</p>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="bi bi-envelope"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>E-mail</h4>
+                            <a href="mailto:lailacmacedo07@gmail.com">lailacmacedo07@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="bi bi-linkedin"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/laila-casadei-macêdo-594208287/" target="_blank">Laila
+                                Casadei Macêdo</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="bi bi-github"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/LailaCM" target="_blank">LailaCM</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="bi bi-link"></i>
+                        </div>
+                        <div class="contact-text">
+                            <h4>Linktree</h4>
+                            <a href="https://linktr.ee/hey_._lah" target="_blank"> Hey_._lah</a>
+                            <img src="img/linktree.png" alt="Linktree" style="width: 10vw;">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados.</p>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="bi bi-code-slash"></i> LailaCM
+                </div>
+
+                <div class="footer-links">
+                    <a href="#hero">Início</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#projects">Projetos</a>
+                    <a href="#tcc">TCC</a>
+                    <a href="#contact">Contato</a>
+                </div>
+
+                <div class="footer-social">
+                    <a href="https://github.com/LailaCM" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/laila-casadei-macêdo-594208287/" target="_blank"><i
+                            class="bi bi-linkedin"></i></a>
+                    <a href="https://linktr.ee/hey_._lah" target="_blank"><i class="bi bi-link-45deg"></i></a>
+                </div>
+
+                <p class="copyright">&copy; 2024 Laila Casadei Macêdo. Todos os direitos reservados.</p>
+            </div>
+        </div>
     </footer>
+
+    <a href="#hero" class="back-to-top">
+        <i class="bi bi-arrow-up"></i>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
